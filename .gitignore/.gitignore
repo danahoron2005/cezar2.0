@@ -1,0 +1,10 @@
+word = input("Введіть слово: ")
+new_word = ""
+words = []
+for i in word:
+    new_word += chr(ord(i)+1)
+
+words.append(new_word)
+print(new_word)
+
+# я доробила цезаря, тепер він не повторює :)
